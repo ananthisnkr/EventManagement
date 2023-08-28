@@ -1,0 +1,38 @@
+.Calculator{
+    width: 20%;
+    height:50%;
+    border:1px solid black;
+   margin:0 auto;
+    display: fixed;
+    top:50%;
+    left:50%;
+  
+}
+.buttongroup{
+    
+    display: grid;
+    grid-template-rows: 50px 50px 50px 50px;
+    grid-template-columns: 50px 50px 50px 50px;
+    gap:25px;
+    padding :12px 16px;
+    background-color: rgb(249, 243, 243);
+    
+}
+.buttons{
+    border:1px solid black;
+    padding: 12px 16px;
+    background-color: rgb(37, 39, 39);
+}
+.bt{
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    background-color: deeppink;
+}
+.textdisplay{
+    
+    width: 97.5%;
+    height:50px;
+    background-color: rgb(56, 219, 224);
+    
+}

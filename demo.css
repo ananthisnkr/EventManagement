@@ -1,0 +1,35 @@
+.parent{
+    border:1px solid red;
+    background-color: turquoise;
+    width : 600px;
+    height:600px;
+    text-align: center;
+    position: relative;
+}
+.child{
+    border:1px solid black;
+    text-align: left;
+    width:100px;
+    height:100px;
+    background-color: blue;
+    padding: 10px;
+}
+.c1{
+    position: absolute;
+    top:0;
+}
+.c2{
+position: absolute;
+right:0;
+top:0;
+
+}
+.c3{
+    position: absolute;
+    bottom:0;
+}
+.c4{
+    position:absolute;
+    bottom:0;
+    right:0;
+}

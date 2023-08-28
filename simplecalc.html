@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="simplecalc.css">
+    
+</head>
+<body>
+    <div class = "Calculator">
+        <div class="disparea">
+            <form name="calcform">
+            <input type = "text" name= "textarea" class ="textdisplay" >
+        </div>
+        <div class = "buttongroup">
+            
+            <div class="buttons"><input type="button" class="bt" name="bt clear" value="C" onclick="calcform.textarea.value=' '"></div>
+            <div class="buttons"><input type="button" class="bt" name="bt Answer" value="=" onclick="calcform.textarea.value=eval(calcform.textarea.value)"></div>
+            <div class="buttons"><input type="button" class="bt" name="bt no9" value="9" onclick="calcform.textarea.value+='9'"></div>
+            <div class="buttons"><input type="button" class="bt" name="bt no8" value="8" onclick="calcform.textarea.value+='8'"></div>
+            <div class="buttons"><input type="button" class="bt" name="bt no7" value="7" onclick="calcform.textarea.value+='7'"></div>
+            <div class="buttons"><input type="button" class="bt" name="bt no6" value="6" onclick="calcform.textarea.value+='6'"></div>
+            <div class="buttons"><input type="button" class="bt" name="bt no5" value="5" onclick="calcform.textarea.value+='5'"></div>
+            <div class="buttons"><input type="button" class="bt" name="bt no4" value="4" onclick="calcform.textarea.value+='4'"></div>
+            <div class="buttons"><input type="button" class="bt" name="bt no3" value="3" onclick="calcform.textarea.value+='3'"></div>
+            <div class="buttons"><input type="button" class="bt" name="bt no2" value="2" onclick="calcform.textarea.value+='2'"></div>
+            <div class="buttons"><input type="button" class="bt" name="bt no1" value="1" onclick="calcform.textarea.value+='1'"></div>
+            <div class="buttons"><input type="button" class="bt" name="bt no0" value="0" onclick="calcform.textarea.value+='0'"></div>
+            <div class="buttons"><input type="button" class="bt" name="bt add" value="+" onclick="calcform.textarea.value+='+'"></div>
+            <div class="buttons"><input type="button" class="bt" name="bt sub" value="-" onclick="calcform.textarea.value+='-'"></div>
+            <div class="buttons"><input type="button" class="bt" name="bt mul" value="*" onclick="calcform.textarea.value+='*'"></div>
+            <div class="buttons"><input type="button" class="bt" name="bt div" value="/" onclick="calcform.textarea.value+='/'"></div>
+           
+        </form>
+        </div>
+        
+    </div>
+</body>
+</html>
